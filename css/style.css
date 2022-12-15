@@ -17,3 +17,7 @@ nav .dropdown-item:hover {
     background-color: rgba(226,1,27,255) ;
     color: white;
 }
+
+.btn-primary {
+    background-color: rgba(226,1,27,255) !important;
+}
