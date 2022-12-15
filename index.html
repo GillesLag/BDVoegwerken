@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="images/logo_transparant.png" height="60px" alt=""></a>
               <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,27 +21,35 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="projecten.html">
-                      Projecten
-                    </a>
-                    <ul class="dropdown-menu bg-light">
-                      <li><a class="dropdown-item" href="detailpagina.html">project1</a></li>
-                      <li><a class="dropdown-item" href="#">project2</a></li>
-                      <li><a class="dropdown-item" href="#">project3</a></li>
+                  <li class="nav-item btn-group">
+                    <a class="btn" href="index.html" role="button">Home</a>
+                    <a class="btn" href="projecten.html" role="button">Projecten</a>
+                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="detailpagina.html">project1</a></li>
+                        <li><a class="dropdown-item" href="#">project2</a></li>
+                        <li><a class="dropdown-item" href="#">project3</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="btn" href="contact.html" role="button">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
+
+    <div class="container mt-5">
+        <div class="row text-center">
+            <div class="col-6">
+                <h2>Over ons</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rerum nisi nobis dolores placeat. Perferendis recusandae repellendus deleniti eveniet id nam, eos ipsam, modi officiis, labore neque voluptate velit! Aspernatur!
+                </p>
+            </div>
+        </div>
+    </div>
 
     <footer>
 
