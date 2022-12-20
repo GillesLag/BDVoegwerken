@@ -1,7 +1,7 @@
-* {
-    margin: 0px;
+body {
     padding: 0px;
-    box-sizing: content-box;
+    width: 75%;
+    margin: auto;
 }
 
 ul {
@@ -28,4 +28,29 @@ nav {
 
 #logo {
     height: 100px;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+.imgProjecten {
+    height: 300px;
+}
+
+.centerProjecten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.col-sm {
+    margin-top: 70px;
 }
