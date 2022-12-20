@@ -23,3 +23,53 @@ nav .dropdown-item:hover {
 .btn-primary {
     background-color: rgba(226,1,27,255) !important;
 }
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    height:500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .slide {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+  
+  .button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+  }
+  
+  .button:active {
+    transform: scale(1.1);
+  }
+  
+  .button-prev {
+    top: 50%;
+    left: 2%;
+  }
+  
+  .button-next {
+    top: 50%;
+    right: 2%;
+  }
