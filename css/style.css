@@ -84,3 +84,23 @@ nav .dropdown-item:hover {
     width: 80%;
     border-radius: 15px;
   }
+
+  @media (max-width: 767px) {
+    .small-screen{
+      display: block;
+    }
+
+    .big-screen{
+      display: none;
+    }
+  } 
+
+  @media (min-width: 768px) {
+    .small-screen{
+      display: none;
+    }
+
+    .big-screen{
+      display: block;
+    }
+  } 

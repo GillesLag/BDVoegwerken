@@ -1,3 +1,4 @@
+//Carousel
 const slides = document.querySelectorAll(".slide");
 const nextSlide = document.querySelector(".button-next");
 const prevSlide = document.querySelector(".button-prev");
@@ -32,5 +33,4 @@ prevSlide.addEventListener("click", function(){
     slide.style.transform = `translateX(${100 * (index - curSlide)}%)`;
   });
 });
-
 
