@@ -5,6 +5,10 @@ body {
 
 }
 
+h1, h2 {
+  color: rgba(226,1,27,255);
+}
+
 .custom-toggler.navbar-toggler {
     border-color:rgba(226,1,27,255);
 }
