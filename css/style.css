@@ -93,6 +93,10 @@ nav .dropdown-item:hover {
     .big-screen{
       display: none;
     }
+
+    iframe {
+      width: 350px;
+    }
   } 
 
   @media (min-width: 768px) {
