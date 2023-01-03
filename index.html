@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/logo_transparant.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/944787e8dd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Index</title>
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="images/logo_transparant.png" height="60px" alt=""></a>
@@ -40,25 +41,170 @@
           </nav>
     </header>
 
-    <!--Hero-->
-    <div class="p-5 mb-4 mt-4  rounded-3">
-        <div class="container text-center">
-          <h1 class="display-5 fw-bold">Hallo</h1>
-          <p class=" fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-          <button class="btn btn-primary btn-lg" type="button">Contact</button>
-        </div>
-    </div>
-    <!--Hero-->
+    <div class="p-2 mb-4 mt-1">
+      <!--Hero-->
+      <div class="rounded-3">
+          <div class="container text-center">
+            <h1 class="display-5 fw-bold">Hallo</h1>
+            <p class=" fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <a class="btn btn-primary btn-lg" href="contact.html" role="button">Contact</a>
+          </div>
+      </div>
+      <!--Hero-->
 
-    <!--carousel-->
+      <!--carousel-->
+      <div class="h-100 d-flex align-items-center justify-content-center p-5">
+        <div class="slider">
+          <!--Slide 1-->
+          <div class="slide">
+            <img src="images/SliderHomePage/1.png" class="img-fluid" alt="">
+          </div>
+          <!--Slide 2-->
+          <div class="slide">
+            <img src="images/SliderHomePage/2.png" class="img-fluid" alt="">
+          </div>
+          <!--Slide 3-->
+          <div class="slide">
+            <img src="images/SliderHomePage/3.png" class="img-fluid" alt="">
+          </div>
+          <!--Slide 4-->
+          <div class="slide">
+            <img src="images/SliderHomePage/4.png" class="img-fluid" alt="">
+          </div>
+          <!--Slide 5-->
+          <div class="slide">
+            <img src="images/SliderHomePage/5.png" class="img-fluid" alt="">
+          </div>
     
-    <!--carousel-->
+          <button class="button button-next">></button>
+          <button class="button button-prev"><</button>
+        </div>
+      </div>
+      <!--carousel-->
 
-    <footer>
-
+      <!--Projecten-->
+      <div class="container mt-5">
+        <!--project 1-->
+        <div class="row">
+          <div class="col-md">
+            <h2>Projecten</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md">
+              <a href="#"><img class="projecten" src="images/SliderHomePage/1.png" alt=""></a>
+            </div>
+            <div class="col-md ">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eos neque vel quis impedit aperiam consequuntur cumque! Laudantium eius officiis ducimus ullam nihil, rem nisi, et mollitia, eum magni cumque.
+              </p>
+              <a href="#" role="button" class="btn btn-primary">Ga naar project</a>
+            </div>
+        </div>
+        <!--project 2 big screen-->
+        <div class="big-screen">
+          <div class="row pt-5 mb-5">
+            <div class="col-md" >
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eos neque vel quis impedit aperiam consequuntur cumque! Laudantium eius officiis ducimus ullam nihil, rem nisi, et mollitia, eum magni cumque.
+              </p>
+              <a href="#" role="button" class="btn btn-primary">Ga naar project</a>
+            </div>
+            <div class="col-md">
+              <a href="#"><img class="projecten" src="images/SliderHomePage/2.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <!--project 2 small screen-->
+        <div class="small-screen">
+          <div class="row pt-5 mb-5 flex-column-reverse">
+            <div class="col-md" >
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eos neque vel quis impedit aperiam consequuntur cumque! Laudantium eius officiis ducimus ullam nihil, rem nisi, et mollitia, eum magni cumque.
+              </p>
+              <a href="#" role="button" class="btn btn-primary">Ga naar project</a>
+            </div>
+            <div class="col-md">
+              <a href="#"><img class="projecten" src="images/SliderHomePage/2.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+         <!--project 3-->
+         <div class="row pt-5">
+          <div class="col-md">
+            <a href="#"><img class="projecten" src="images/SliderHomePage/3.png" alt=""></a>
+          </div>
+          <div class="col-md">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eos neque vel quis impedit aperiam consequuntur cumque! Laudantium eius officiis ducimus ullam nihil, rem nisi, et mollitia, eum magni cumque.
+            </p>
+            <a href="#" role="button" class="btn btn-primary">Ga naar project</a>
+          </div>
+        </div>
+      </div>
+      <!--Projecten-->
+    </div>
+    
+    <footer class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="https://BDVoegwerken.be/">BDVoegwerken</a>
+      </div>
+      <!-- Copyright -->
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="javascript/Index.js"></script>
 </body>
 
 </html>
