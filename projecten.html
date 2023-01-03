@@ -14,15 +14,32 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="images/logo_transparant.png" alt="Logo" id="logo"></a>
-        <nav>
-            <ul id="listNav">
-                <li><a href="projecten.html">projecten</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo_transparant.png" height="60px" alt=""></a>
+                <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item btn-group">
+                            <a class="btn" href="index.html" role="button">Home</a>
+                            <a class="btn" href="projecten.html" role="button">Projecten</a>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="detailpagina.html">project1</a></li>
+                                <li><a class="dropdown-item" href="#">project2</a></li>
+                                <li><a class="dropdown-item" href="#">project3</a></li>
+                            </ul>
+                            <a class="btn" href="contact.html" role="button">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <hr>
     </header>
     <div class="container">
         <div class="row">
@@ -94,8 +111,46 @@
             </div>
         </div>
     </div>
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i
+          ></a>
+
+                <!-- Twitter -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i
+          ></a>
+
+                <!-- Google -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i
+          ></a>
+
+                <!-- Instagram -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i
+          ></a>
+
+                <!-- Linkedin -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i
+          ></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="https://BDVoegwerken.be/">BDVoegwerken</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
     <script src="/javascript/addLocalStorage.js"></script>
     <script src="/javascript/hoverImg.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
