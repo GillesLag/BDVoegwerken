@@ -3,8 +3,9 @@ body {
     box-sizing: content-box;
 }
 
-h1, h2 {
-  color: rgba(226,1,27,255);
+h1,
+h2 {
+    color: rgba(226, 1, 27, 255);
 }
 
 .custom-toggler.navbar-toggler {
@@ -25,13 +26,8 @@ nav .dropdown-item:hover {
     background-color: rgba(226, 1, 27, 255) !important;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 2f8b302f541f3e0506026ce456ac0e9fcb23bf74
 .imgProjecten {
-    height: 300px;
+    max-height: 300px;
     width: auto;
     margin-top: 30px;
 }
@@ -40,37 +36,34 @@ nav .dropdown-item:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    max-height: 300px;
     margin-right: 20px;
 }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2f8b302f541f3e0506026ce456ac0e9fcb23bf74
+
 .slider {
     width: 100%;
     max-width: 800px;
-    height:500px;
+    height: 500px;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
-  }
-  
-  .slide {
+}
+
+.slide {
     width: 100%;
     max-width: 800px;
     height: 500px;
     position: absolute;
     transition: all 0.5s;
-  }
-  
-  .slide img {
+}
+
+.slide img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
-  }
-  
-  .button {
+    object-fit: cover;
+}
+
+.button {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -79,55 +72,48 @@ nav .dropdown-item:hover {
     border-radius: 50%;
     z-index: 10px;
     cursor: pointer;
-    color: rgba(226,1,27,255);
+    color: rgba(226, 1, 27, 255);
     background-color: #fff;
     font-size: 18px;
-  }
-  
-  .button:active {
+}
+
+.button:active {
     transform: scale(1.1);
-  }
-  
-  .button-prev {
+}
+
+.button-prev {
     top: 50%;
     left: 2%;
-  }
-  
-  .button-next {
+}
+
+.button-next {
     top: 50%;
     right: 2%;
-  }
+}
 
-  img.projecten {
+img.projecten {
     height: 100%;
     width: 80%;
     border-radius: 15px;
-  }
+}
 
-  @media (max-width: 767px) {
-    .small-screen{
-      display: block;
+@media (max-width: 767px) {
+    .small-screen {
+        display: block;
     }
-
-    .big-screen{
-      display: none;
+    .big-screen {
+        display: none;
     }
-
     iframe {
-      width: 350px;
+        width: 350px;
     }
-  } 
+}
 
-  @media (min-width: 768px) {
-    .small-screen{
-      display: none;
+@media (min-width: 768px) {
+    .small-screen {
+        display: none;
     }
-
-    .big-screen{
-      display: block;
+    .big-screen {
+        display: block;
     }
-  } 
-<<<<<<< HEAD
->>>>>>> 6ed81478ed760e20f31862defb1636b0230ca7e6
-=======
->>>>>>> 2f8b302f541f3e0506026ce456ac0e9fcb23bf74
+}
