@@ -1,8 +1,6 @@
 body {
-
     margin: auto;
     box-sizing: content-box;
-
 }
 
 h1, h2 {
@@ -10,24 +8,37 @@ h1, h2 {
 }
 
 .custom-toggler.navbar-toggler {
-    border-color:rgba(226,1,27,255);
+    border-color: rgba(226, 1, 27, 255);
 }
-    
+
 .custom-toggler .navbar-toggler-icon {
-    background-image: url(
-        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(226,1,27,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(226,1,27,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 nav .btn:hover,
 nav .dropdown-item:hover {
-    background-color: rgba(226,1,27,255) ;
+    background-color: rgba(226, 1, 27, 255);
     color: white;
 }
 
 .btn-primary {
-    background-color: rgba(226,1,27,255) !important;
+    background-color: rgba(226, 1, 27, 255) !important;
 }
 
+
+.imgProjecten {
+    height: 300px;
+    width: auto;
+    margin-top: 30px;
+}
+
+.centerProjecten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-right: 20px;
+}
 .slider {
     width: 100%;
     max-width: 800px;
