@@ -29,7 +29,8 @@ nav .dropdown-item:hover {
 .imgProjecten {
     max-height: 300px;
     width: auto;
-    margin-top: 30px;
+    border-radius: 25px;
+    margin-left: 20%;
 }
 
 .centerProjecten {
@@ -38,6 +39,11 @@ nav .dropdown-item:hover {
     align-items: center;
     max-height: 300px;
     margin-right: 20px;
+}
+
+#detailH1 {
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .slider {
@@ -115,5 +121,11 @@ img.projecten {
     }
     .big-screen {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .imgProjecten {
+        margin-left: 0%;
     }
 }
